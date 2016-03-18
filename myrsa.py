@@ -21,7 +21,7 @@ import sys
 #Funcion MCD
 
 #Estrategia:
-#Se utiliza el algoritmo de Euclides.
+#Se utiliza el algoritmo de Euclides
 #El algoritmo se centra basicamente en dividir el numero mayor a entre el numero menor b, mientras diferente 
 #de 0 y hasta que el resto de a/b sea 0, dado el caso de que a<b se aplica intercambio de valores a las variables,
 #(funciona como un tipo de auxiliar que reemplaza valores).
