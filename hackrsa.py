@@ -5,10 +5,11 @@
 #Universidad de Medellin(UdM)
 
 
-#PROBLEMA NUMERO DOS
+#Problema 2
 
 #Escriba una funcion que dada la clave publica y un mensaje compuesto de cuatro digitos desencripte el mensaje formado 
-#por estos cuatro numeros
+#por estos cuatro numeros.
+
 import random
 
 #se crea una funcion para definir si un numero es primo
@@ -37,9 +38,9 @@ def hackrsa (e, N, n1, n2, n3, n4):
 		if e * d % phi == 1:#me genera una condicion que dice que e por d y modulo de phi debe ser modulo de phi.
 				d # me returna d es equivalente a decir return d
 				m1 = n1**d%N #toma el primer digito ingresado y lo eleva a la d(sacado del rango y condicional anteriores) 						     modulo de N.
-				m2 = n2**d%N # """""
-				m3 = n3**d%N # """"
-				m4 = n4**d%N # """
+				m2 = n2**d%N # con segundo valor "" ""
+				m3 = n3**d%N # con tercer valor "" ""
+				m4 = n4**d%N # con cuarto valor "" ""
 				
 				print "mensaje desencriptado"
 			        print m1,m2,m3,m4
