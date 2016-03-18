@@ -1,0 +1,58 @@
+CRIPTOSISTEMA RSA	
+
+
+##lenguaje de programacion "python"##
+
+
+Indice
+
+El repositorio contiene dos directorios: myrsa.py y hackrsa.py
+
+myrsa.py:
+Este codigo genera las claves publicas y privadas del rsa, consta de 4 funciones.
+En la ejecucion se pide ingresar p y q.
+
+hacrsa.py:
+Este codigo genera el descifrado de un mensaje. Contiene dos funciones bases, unos pocos condiconales precisos.
+En la ejecucion se pide ingresar e,N,m1,m2.m3,m4.
+
+
+
+
+Implementacion por.
+
+>>> David Felipe Velez Cadavid
+>>>Estudiante de Computacion Cientifica 
+>>>Primer semestre
+>>>Universidad de Medellin (UdM)
+
+
+
+Revision.
+
+>>> Carlos Vera
+>>>Profesor -- Computacion Cientifica
+
+
+
+
+MARZO, 2016
+
+
+
+
+
+
+
+
+BASED REFERENCES:
+
+Variables tipo LISTA en Python
+http://aprendeenlinea.udea.edu.co/lms/ocw/mod/page/view.php?id=213
+
+Modulo random
+http://www.pythondiario.com/2013/06/modulo-random-en-python-con-ejemplos.html
+
+Functions creating iterators for efficient looping
+https://docs.python.org/2/library/itertools.html
+
