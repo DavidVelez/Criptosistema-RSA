@@ -29,13 +29,13 @@ def hackrsa (e, N, n1, n2, n3, n4):
 		for q in range(2,N):#Buscamos un numero en el rango 2 a N-1 primo tal que el resto sea 1
 			if prime_num(p)==1 and prime_num(q)==1:      
 				if p * q == N:
-					phi = (p-1) * (q-1)# algoritmo de ueler se necesita hallar para encontrar e y d.
+					phi = (p-1) * (q-1)# algoritmo de euler se necesita hallar para encontrar e y d.
 		
 
 	for d in range(phi):#me genera un rango de 0 a phi-1
 
-		if e * d % phi == 1:#me genera una condicion que dice que e por d y modulo de phi debe ser uno de phi.
-				d # me returna d es equivalente a decir return e
+		if e * d % phi == 1:#me genera una condicion que dice que e por d y modulo de phi debe ser modulo de phi.
+				d # me returna d es equivalente a decir return d
 				m1 = n1**d%N #toma el primer digito ingresado y lo eleva a la d(sacado del rango y condicional anteriores) 						     modulo de N.
 				m2 = n2**d%N # """""
 				m3 = n3**d%N # """"
